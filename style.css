@@ -1,0 +1,39 @@
+body {
+    background: #fefefe;
+}
+
+.menuHeader {
+    background: dimgray;
+}
+.menuItem {
+    color: orange
+}
+
+.mainHeader {
+    color: gray;
+}
+
+.topicListHeader {
+    color: crimson;
+}
+
+.topicList {
+    background: darkgray;
+}
+
+.topicHeader {
+    color: darkblue;
+}
+
+.pageFooter {
+    background: dimgray;
+}
+
+.sectionHeader {
+    color: #1460aa;
+    font-size: 24px;
+}
+
+.paragraph {
+    color: black;
+}
