@@ -1,6 +1,5 @@
 body {
-    background: salmon;
-    //background: #fefefe;
+    background: #fefefe;
 }
 
 .menuHeader {
@@ -14,27 +13,32 @@ body {
     color: gray;
 }
 
-.topicListHeader {
-    color: crimson;
+.topicListHeader, .sectionHeader{
+    color: #083d77;
 }
 
-.topicList {
-    background: darkgray;
-}
+
 
 .topicHeader {
-    color: darkblue;
+    color: #0496ff;
 }
 
 .pageFooter {
     background: dimgray;
 }
 
-.sectionHeader {
-    color: #1460aa;
-    font-size: 24px;
+.link {
+    color: #1a936f;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    
 }
 
 .paragraph {
-    color: black;
+    padding: 16px;
+    
 }
