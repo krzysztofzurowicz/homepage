@@ -1,8 +1,12 @@
-body {
+.page {
     background: #fefefe;
 }
 
-.menuHeader {
+.page__footer {
+    background: dimgray;
+}
+
+.navigation {
     background: dimgray;
     position: fixed;
     width: 100%;
@@ -13,47 +17,29 @@ body {
     text-decoration: none;
 
 }
-.menuItem {
+.navigation__link {
     color: orange
 }
 
-.mainHeader {
-    color: gray;
+
+.topic {
+
 }
 
-.topicListHeader, .sectionHeader{
+.topic__mainHeader {
     color: #083d77;
 }
 
-
-
-.topicHeader {
+.topic__header {
     color: #0496ff;
 }
 
-.pageFooter {
-    background: dimgray;
+.topic__paragraph {
+
 }
 
-.link {
+.topic__link {
     color: #1a936f;
-}
-
-.main {
-    width: 100%;
-    max-width: 700px;
-    margin: 32px auto;
-    padding-top: 15px;
-    
-}
-
-.paragraph {
-    padding: 16px;
-    
-}
-
-.about {
-    //position: relative;
 }
 
 .box {
@@ -75,9 +61,57 @@ body {
     right: 10px;
 }
 
-.codingImg {
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-top: 15px;
+}
+
+.main__header {
+    color: gray; 
+}
+
+.about {
+    
+}
+
+.about__header {
+    color: #083d77;   
+}
+
+.about__paragraph {
+    padding: 16px;
+    
+}
+
+.about__picture {
     display: block;
     float: left;
-    margin: 0 16px 16px 0;
-   
+    margin: 0 16px 16px 0;    
 }
+
+.about__link {
+    color: #1a936f;
+}
+
+.article {
+
+}
+
+.article__header {
+    color: #0496ff;
+}
+
+.article__footer {
+
+}
+
+.article__image {
+
+}
+
+.article__paragraph {
+
+}
+

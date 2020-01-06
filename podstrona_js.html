@@ -9,37 +9,37 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-    <header class="menuHeader">
-        <a href="index.html" class="menuItem">Strona główna</a>
-        <a href="podstrona_html.html" class="menuItem">HTML</a>
-        <a href="podstrona_css.html" class="menuItem">CSS</a>
-        <a href="podstrona_js.html" class="menuItem">JavaScript</a>
-        <a href="podstrona_tools.html" class="menuItem">Narzędzia i metodyki</a>
-        <a href="podstrona_ideas.html" class="menuItem">Pomysły i przemyślenia</a>
+<body class="page">
+    <header class="navigation">
+        <a href="index.html" class="navigation__link">Strona główna</a>
+        <a href="podstrona_html.html" class="navigation__link">HTML</a>
+        <a href="podstrona_css.html" class="navigation__link">CSS</a>
+        <a href="podstrona_js.html" class="navigation__link">JavaScript</a>
+        <a href="podstrona_tools.html" class="navigation__link">Narzędzia i metodyki</a>
+        <a href="podstrona_ideas.html" class="navigation__link">Pomysły i przemyślenia</a>
     </header>
-    <main>
-        <article>
+    <main class="main">
+        <article class="article">
             <header>
-                <img src="image_js.png" alt="logo JavaScript">
-                <h1 class="mainHeader">JavaScript - informacje na temat warstwy interakcji na stronie internetowej</h1>
+                <img src="image_js.png" alt="logo JavaScript" class="article__image">
+                <h1 class="article__header">JavaScript - informacje na temat warstwy interakcji na stronie internetowej</h1>
             </header>
-            <p class="paragraph">
+            <p class="article__paragraph">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolorum quo quis enim eveniet asperiores,
                 eligendi illo nostrum tenetur. Ratione excepturi vel earum corrupti cum totam libero voluptatibus
                 quisquam cupiditate.
             </p>
-            <p class="paragraph">
+            <p class="article__paragraph">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quasi voluptates. Nemo debitis
                 temporibus perspiciatis aliquam ipsa minus. Eaque quasi explicabo laborum labore perferendis aut
                 adipisci a. Architecto, necessitatibus ratione.
             </p>
-            <footer>
+            <footer class="article__footer">
                 Autorem artykułu jest Krzysztof Żurowicz.
             </footer>
         </article>
     </main>
-    <footer class="pageFooter">
+    <footer class="page__footer">
         Strona domowa Krzysztofa Żurowicza, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend.
     </footer>
     <script src="main.js"></script>

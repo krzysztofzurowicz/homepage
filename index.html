@@ -9,64 +9,64 @@
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-  <header class="menuHeader">
-    <a href="index.html" class="menuItem">Strona główna</a>
-    <a href="podstrona_html.html" class="menuItem">HTML</a>
-    <a href="podstrona_css.html" class="menuItem">CSS</a>
-    <a href="podstrona_js.html" class="menuItem">JavaScript</a>
-    <a href="podstrona_tools.html" class="menuItem">Narzędzia i metodyki</a>
-    <a href="podstrona_ideas.html" class="menuItem">Pomysły i przemyślenia</a>
+<body class="page">
+  <header class="navigation">
+    <a href="index.html" class="navigation__link">Strona główna</a>
+    <a href="podstrona_html.html" class="navigation__link">HTML</a>
+    <a href="podstrona_css.html" class="navigation__link">CSS</a>
+    <a href="podstrona_js.html" class="navigation__link">JavaScript</a>
+    <a href="podstrona_tools.html" class="navigation__link">Narzędzia i metodyki</a>
+    <a href="podstrona_ideas.html" class="navigation__link">Pomysły i przemyślenia</a>
   </header>
   <main class="main" id="top">
     <header>
-      <h1 class="mainHeader">Krzysztof Żurowicz - strona domowa</h1>
+      <h1 class="main__header">Krzysztof Żurowicz - strona domowa</h1>
     </header>
     <section class="about">
       <div class="box">Co ten frontend</div>
-      <img src="image_coding.jpeg" alt="Zdjęcie kodu - art" class="codingImg">
+      <h2 class="about__header about__header--js">Powód powstania tej strony?</h2>
+      <img src="image_coding.jpeg" alt="Zdjęcie kodu - art" class="about__picture">
         
-      <h2 class="sectionHeader">Powód powstania tej strony?</h2>
-      <p class="paragraph">Strona jest zbiorem wiedzy wyniesionej z kursu WTF oraz przemyśleń i pomysłów związanych z technologią frontend-u. 
+      <p class="about__paragraph">Strona jest zbiorem wiedzy wyniesionej z kursu WTF oraz przemyśleń i pomysłów związanych z technologią frontend-u. 
         <br>
-        <a class="link" href="#topicList">Przejdź do listy tematów</a>
+        <a class="about__link" href="#topicList">Przejdź do listy tematów</a>
       </p>
     </section>
-    <section class="topicList">
-      <h2 class="topicListHeader">Poruszane tematy:</h2>
+    <section class="topic">
+      <h2 class="topic__mainHeader">Poruszane tematy:</h2>
       <section>
-        <h3 class="topicHeader">HTML - informacje na temat warstwy semantycznej strony internetowej</h3>
-        <p class="paragraph">Tworzenie zgodnego ze standardami HTML-a to sztuka, której opanowanie wymaga intensywnej pracy i dużej ilości poświęconego czasu. Tu znajdziesz wiele informacji i porad odnośnie technologii HTML.<br>
-          <a class="link" href="podstrona_html.html">Przejdź do artykułu o HTML-u</a>
+        <h3 class="topic__header">HTML - informacje na temat warstwy semantycznej strony internetowej</h3>
+        <p class="topic__paragraph">Tworzenie zgodnego ze standardami HTML-a to sztuka, której opanowanie wymaga intensywnej pracy i dużej ilości poświęconego czasu. Tu znajdziesz wiele informacji i porad odnośnie technologii HTML.<br>
+          <a class="topic__link" href="podstrona_html.html">Przejdź do artykułu o HTML-u</a>
         </p>
       </section>
       <section>
-        <h3 class="topicHeader">CSS - informacje na temat warstwy prezentacji strony internetowej</h3>
-        <p class="paragraph">Wygląd strony opisujemy w CSS. Tutaj zestaw informacji pozwalający zadbać o warstwę prezentacji strony internetowej.<br>
-          <a class="link" href="podstrona_css.html">Przejdź do artykułu o CSS-ach</a>
+        <h3 class="topic__header">CSS - informacje na temat warstwy prezentacji strony internetowej</h3>
+        <p class="topic__paragraph">Wygląd strony opisujemy w CSS. Tutaj zestaw informacji pozwalający zadbać o warstwę prezentacji strony internetowej.<br>
+          <a class="topic__link" href="podstrona_css.html">Przejdź do artykułu o CSS-ach</a>
         </p>
       </section>
       <section>
-        <h3 class="topicHeader">JavaScript - informacje na temat warstwy interakcji na stronie internetowej</h3>
-        <p class="paragraph">JavaScript - niegdyś obiekt żartów w środowiskach developerskich. Ale ostatecznie trzeba po niego sięgnąć by dodać interakcję na stronie. Tutaj znajdzieć podstawową wiedzę z JavaScript.<br>
-          <a class="link" href="podstrona_js.html">Przejdź do artykułu o JavaScript</a>
+        <h3 class="topic__header">JavaScript - informacje na temat warstwy interakcji na stronie internetowej</h3>
+        <p class="topic__paragraph">JavaScript - niegdyś obiekt żartów w środowiskach developerskich. Ale ostatecznie trzeba po niego sięgnąć by dodać interakcję na stronie. Tutaj znajdzieć podstawową wiedzę z JavaScript.<br>
+          <a class="topic__link" href="podstrona_js.html">Przejdź do artykułu o JavaScript</a>
         </p>
       </section>
       <section>
-        <h3 class="topicHeader">Narzędzia i metodyki</h3>
-        <p class="paragraph">Zbiór ciekawych informacji na temat narzędzi web developera oraz informacje na temat metodyk pracy.<br>
-          <a class="link" href="podstrona_tools.html">Przejdź do artykułu o narzędziach i metodykach</a>
+        <h3 class="topic__header">Narzędzia i metodyki</h3>
+        <p class="topic__paragraph">Zbiór ciekawych informacji na temat narzędzi web developera oraz informacje na temat metodyk pracy.<br>
+          <a class="topic__link" href="podstrona_tools.html">Przejdź do artykułu o narzędziach i metodykach</a>
         </p>
       </section>
       <section>
-        <h3 class="topicHeader">Pomysły i przemyślenia</h3>
-        <p class="paragraph">Tutaj znajdziesz moje własne pomysły do zrealizowania i przemyślenia pojawiające się w trakcie nauki frontend-u.<br>
-          <a class="link" href="podstrona_ideas.html">Przejdź do artykułu z pomysłami i przemyśleniami</a>
+        <h3 class="topic__header">Pomysły i przemyślenia</h3>
+        <p class="topic__paragraph">Tutaj znajdziesz moje własne pomysły do zrealizowania i przemyślenia pojawiające się w trakcie nauki frontend-u.<br>
+          <a class="topic__link" href="podstrona_ideas.html">Przejdź do artykułu z pomysłami i przemyśleniami</a>
         </p>
       </section>
     </section>
   </main>
-  <footer class="pageFooter">
+  <footer class="page__footer">
     Strona domowa Krzysztofa Żurowicza, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend.
     <a href="#top" class="top">Na górę</a>
   </footer>
