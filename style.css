@@ -22,12 +22,16 @@
 }
 
 
-.topic {
-
+.topics {
+    clear: both;
 }
 
-.topic__mainHeader {
+.topics__mainHeader {
     color: #083d77;
+}
+
+.topic {
+    padding: 16px;
 }
 
 .topic__header {
